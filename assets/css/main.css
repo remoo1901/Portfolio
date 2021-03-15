@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
 
-/*
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+ 
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -227,6 +223,7 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: calc(100% - 50px);
 		width: 1200px;
+		
 	}
 
 		.container.medium {
@@ -368,7 +365,7 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 50%;
+			width: 5%;
 		}
 
 		.row > .off-6 {
@@ -416,7 +413,7 @@ input, select, textarea {
 		}
 
 		.row > .col-12 {
-			width: 100%;
+			width: 20%;
 		}
 
 		.row > .off-12 {
@@ -1603,7 +1600,7 @@ input, select, textarea {
 			}
 
 			table.default thead {
-				background: #4f4f4f;
+				background: #5708b1;
 				color: #fff;
 			}
 
@@ -1912,14 +1909,15 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
+		background: rgb(246, 245, 255);
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
 	}
 
 		.box.style1 {
-			padding: 3em 2em 3.5em 2em;
+			padding: 0.5em 0.25em 0.25em 0.5em;
+			
 		}
 
 			.box.style1 h3 {
@@ -1988,35 +1986,45 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
+
+		background-image: none;
+		background-size:100% 100%;
+        background-repeat: no-repeat;
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
 	}
 
 		.wrapper.style1 {
-			background-image: none;
-			background-color: #fff;
+			background: -webkit-linear-gradient(70deg, #C1432E 40%, #4B6777 40%);
+ 			background: -o-linear-gradient(70deg, #C1432E 40%, #4B6777 40%);
+  			background: -moz-linear-gradient(70deg, #C1432E 40%, #4B6777 40%);
+  			background: linear-gradient(70deg, #C1432E 40%, #4B6777 40%);
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			background: -webkit-linear-gradient(70deg, #4B6777  40%, #C1432E 40%);
+ 			background: -o-linear-gradient(70deg, #4B6777  40%, #C1432E 40%);
+  			background: -moz-linear-gradient(70deg, #4B6777  40%, #C1432E 40%);
+  			background: linear-gradient(70deg, #4B6777  40%, #C1432E 40%);
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
+			background: -webkit-linear-gradient(70deg, #C1432E 40%, #4B6777 40%);
+ 			background: -o-linear-gradient(70deg, #C1432E 40%, #4B6777 40%);
+  			background: -moz-linear-gradient(70deg, #C1432E 40%, #4B6777 40%);
+  			background: linear-gradient(70deg, #C1432E 40%, #4B6777 40%);
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
-			color: #999;
-			text-shadow: -1px -1px 0px #181818;
+			background: -webkit-linear-gradient(70deg, #4B6777  40%, #C1432E 40%);
+ 			background: -o-linear-gradient(70deg, #4B6777  40%, #C1432E 40%);
+  			background: -moz-linear-gradient(70deg, #4B6777  40%, #C1432E 40%);
+  			background: linear-gradient(70deg, #4B6777  40%, #C1432E 40%);
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
-				color: #fff;
+				color: #3f3f3f;
 			}
 
 			.wrapper.style4 form input[type=text],
@@ -2058,6 +2066,7 @@ input, select, textarea {
 		#nav li {
 			display: inline-block;
 			padding-left: 0;
+			color: red;
 		}
 
 		#nav a {
@@ -2076,6 +2085,7 @@ input, select, textarea {
 			height: 2.5em;
 			line-height: 2.5em;
 			padding: 0 1.25em;
+			color: #ce9e62;
 		}
 
 			#nav a:hover {
@@ -2393,3 +2403,40 @@ input, select, textarea {
 					}
 
 	}
+
+	.name {
+		color: #ce9e62;
+		font-family: Poppins;
+
+	}
+
+	.name1 {
+		color: white;
+		text-shadow: 1px 1px 0px #201f1f;
+		font-family: Poppins;
+	}
+
+	.nav {
+		background: -webkit-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+  background: -o-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+  background: -moz-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+  background: linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+	}
+
+	.first-header {
+		color: #ff6464;
+		text-shadow: 1px 1px 0px #2c2c2c;
+		font-family: Poppins;
+		font-size: 28px;
+		
+	}
+
+	.second-header {
+		color: #2c2c2c;
+		text-shadow: 1px 1px 0px #ff6464;
+		font-family: Poppins;
+		font-size: 28px;
+		
+	}
+
+	
